@@ -4,7 +4,10 @@
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
-<body>
+<body ng-app="ngAnimate">
+
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -14,10 +17,27 @@
     </div>
   </div>
 </nav>
+
+
+
+<div class="col-lg-3">
+	<button ng-model="show" type="button" class="btn btn-default navbar-btn">Book A Flight</button><br>
+	<button type="button" class="btn btn-default navbar-btn">My Flights</button><br>
+	<button type="button" class="btn btn-default navbar-btn">Flight Status</button>
+
+</div>
+
+
+<div ng-show="show" id="jumbo" class="jumbotron">
+	
+</div>
+
+
 <script type="text/javascript" src="../js/jquery-2.2.2.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/angular.min.js"></script>
 <script type="text/javascript" src="../js/core.js"></script>
 <script type="text/javascript" src="../js/ui-bootstrap-tpls-1.2.5.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
 </body>
 </html>

@@ -1,1 +1,1 @@
-angular.module('ngApp', ['ui.bootstrap'])
+angular.module('ngAnimate', ['ui.bootstrap']);
