@@ -1,0 +1,10 @@
+.navbar{
+	height: 75px;
+	background-color: silver;
+}
+
+#logo{
+	height: 100px;
+	position: relative;
+	top: -30px;
+}
