@@ -1,0 +1,13 @@
+.button{
+
+	margin: 0 auto;
+
+    cursor: pointer;
+   
+    font-size: 2em;
+    background: #3C3C3C;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(49, 21, 4, 0.4);
+
+}
